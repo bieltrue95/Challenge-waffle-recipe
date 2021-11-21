@@ -1,0 +1,43 @@
+/*====  VARIABLES ============================ */
+* {
+  width: 100vh;
+  height: auto;
+}
+
+:root {
+  --header-height: 4.5rem;
+
+  /* colors */
+  --hue: 159;
+  /* HSL color mode */
+  --title-color: hsl(var(--hue) 41% 10%);
+  --text-color: hsl(0 0% 45%);
+  --text-color-light: hsl(0 0% 98%);
+  --body-color: hsl(0 0% 98%);
+
+  /* fonts */
+  --title-font-size: 1.875rem;
+  --subtitle-font-size: 1rem;
+
+  --title-font: 'Poppins', sans-serif;
+  --body-font: 'DM Sans', sans-serif;
+}
+
+body {
+  font: 400 1rem var(--body-font);
+  color: var(--text-color);
+  background: var(--body-color);
+  overflow-x: hidden;
+}
+
+h1 {
+  font: 700 var(--title-font-size) var(--title-font);
+  color: var(--title-color);
+}
+h2 {
+  color: var(--title-color);
+}
+img {
+  width: 800px;
+  height: 500px;
+}
