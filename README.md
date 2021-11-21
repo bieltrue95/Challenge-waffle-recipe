@@ -15,8 +15,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 
 Bibliotecas
-- [Google Fonts](https://fonts.google.com/)
 
+<a href="https://fonts.google.com/" target="_blank">Google Fonts</a></p>
 <br>
 
 ## Projeto
